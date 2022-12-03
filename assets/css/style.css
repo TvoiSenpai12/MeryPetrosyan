@@ -1,4 +1,35 @@
+/* ---START STYLES--- */
 * {
     margin: 0;
     padding: 0;
+    list-style-type: none;
+    text-decoration: none;
 }
+/* ---START STYLES--- */
+
+/* ---HEADER START--- */
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #111111;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-weight: 400;
+}
+
+nav a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+/* ---HEADER STOP--- */
