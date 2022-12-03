@@ -14,14 +14,28 @@
 /* ---HEADER START--- */
 
 header {
+    background-color: #111111;
+}
+
+.header__container {
     display: flex;
     justify-content: center;
-    background-color: #111111;
+    align-items: center;
+    max-width: 1104px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 24px 0;
 }
 
 nav {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.logo {
+    width: 240px;
 }
 
 .logo h1 {
@@ -34,7 +48,25 @@ nav a {
     color: #fff;
     font-size: 16px;
     line-height: 24px;
+    margin-left: 16px;
 }
 
+.btn-buy button{
+    border-color: rgb(255,221,45);
+    background-color: hsla(0,0%,100%,0);
+    border-radius: 100px;
+    color: #fff;
+    font-weight: 400;
+    height: 48px;
+    font-size: 16px;
+    line-height: 44px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-buy {
+    margin-left: 32px;
+}
 
 /* ---HEADER STOP--- */
